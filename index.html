@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direito Previdenciário para PCD - Sua Assessoria Especializada</title>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #0056b3; /* Azul escuro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #004085;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .main-content {
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #eef7ff;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #0056b3;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #e6f0ff;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #28a745; /* Verde para ação */
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #1e7e34;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        
+        /* Estilos do Botão Flutuante (Chatbot) */
+        .chatbot-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #ffc107; /* Amarelo/Ouro para destaque */
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            transition: transform 0.3s;
+        }
+        .chatbot-button:hover {
+            transform: scale(1.1);
+        }
+        .chatbot-icon {
+            /* Ícone de Balão de Fala */
+            content: "💬"; 
+        }
+        
+        /* Estilos da Janela do Chatbot */
+        .chatbot-window {
+            display: none; /* Inicialmente oculta */
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            width: 350px;
+            height: 450px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 999;
+            overflow: hidden;
+            background-color: white;
+        }
+        .chatbot-header {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .chatbot-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+        .chatbot-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>♿ Direito Previdenciário para PCD</h1>
+            <p>Seus direitos de forma simples e acessível. Aposentadoria, Benefício de Prestação Continuada (BPC) e mais.</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        
+        <section>
+            <h2>O que você precisa saber?</h2>
+            <p>A legislação previdenciária oferece proteções específicas para Pessoas com Deficiência (PCD). Não perca seus direitos!</p>
+            <ul>
+                <li>✅ **Aposentadoria por Tempo de Contribuição da PCD:** Regras de tempo reduzido.</li>
+                <li>✅ **Aposentadoria por Idade da PCD:** Redução na idade mínima.</li>
+                <li>✅ **BPC/LOAS:** Para pessoas com deficiência de baixa renda que comprovem impedimento de longo prazo.</li>
+                <li>✅ **Auxílio-Inclusão:** Apoio para quem volta ao mercado de trabalho.</li>
+            </ul>
+        </section>
+
+        <section class="cta-section">
+            <h2>Pronto para tirar suas dúvidas?</h2>
+            <p>Fale com um de nossos especialistas ou use nosso assistente virtual.</p>
+            <a href="#" class="cta-button">Falar com Consultor Humano Agora!</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sua Assessoria Previdenciária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <button id="chatButton" class="chatbot-button" aria-label="Abrir Chatbot">
+        💬
+    </button>
+    
+    <div id="chatWindow" class="chatbot-window">
+        <div class="chatbot-header">
+            Assistente Previdenciário (PCD)
+            <button class="chatbot-close" id="closeChat">&times;</button>
+        </div>
+        <iframe 
+            id="chatIframe"
+            class="chatbot-iframe"
+            src="https://ck12348mmx.app.n8n.cloud/webhook/d56fa0d9-fabe-4c73-8105-ae170e398823/chat"
+            title="Assistente Virtual de Direito Previdenciário">
+        </iframe>
+    </div>
+
+    <script>
+        const chatButton = document.getElementById('chatButton');
+        const closeChatButton = document.getElementById('closeChat');
+        const chatWindow = document.getElementById('chatWindow');
+        
+        // Função para alternar a visibilidade da janela de chat
+        function toggleChat() {
+            if (chatWindow.style.display === 'block') {
+                chatWindow.style.display = 'none';
+                chatButton.innerHTML = '💬'; // Altera ícone para balão
+            } else {
+                chatWindow.style.display = 'block';
+                chatButton.innerHTML = '✖️'; // Altera ícone para fechar
+            }
+        }
+        
+        // Event listeners para os botões
+        chatButton.addEventListener('click', toggleChat);
+        closeChatButton.addEventListener('click', toggleChat);
+        
+        // Opcional: Fechar a janela ao clicar fora dela (mais complexo, deixamos simples por agora)
+
+    </script>
+</body>
+</html>
